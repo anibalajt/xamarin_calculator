@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calculator.MainPage">
+
+	<ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+				<Setter Property="TextColor" Value="Black" />
+
+                <Setter Property="BackgroundColor" Value="Blue"/>
+                <!--<Setter Property="WidthRequest" Value="{Binding ScreenWidth}" />-->
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+  <Grid Padding="10">
+		<Label	
+			BackgroundColor="Aqua"
+			StyleId="resultText"
+			Grid.Row="1"
+			Grid.ColumnSpan="5"
+			Text="{Binding MyStringProperty}"
+			FontSize="60"
+			VerticalTextAlignment="End"
+			HorizontalTextAlignment="End"
+			/>
+
+		<Button
+			Style="{StaticResource buttonStyle}"
+			Font="Large"
+			CommandParameter="Backspace" 
+			Text="←" />
+	  			<!--Grid.Row="2"
+			Grid.Column="0"-->
+		<Button
+			BackgroundColor="Bisque"
+			Font="Large"
+			CommandParameter="Clear" 
+			Text="{Binding MyStringProperty}" />
+			<!--<Grid.Row="2"
+			Grid.Column="1"-->
+		<!--<Button
+			Grid.Row="2"
+			Grid.Column="2"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="PlusMinus" 
+			Text="±" />
+		<Button
+			Grid.Row="2"
+			Grid.Column="3"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Divide" 
+			Text="/" />
+
+		<Button
+			Grid.Row="3"
+			Grid.Column="0"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Seven" 
+			Text="7" />
+		<Button
+			Grid.Row="3"
+			Grid.Column="1"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Eight" 
+			Text="8" />
+		<Button
+			Grid.Row="3"
+			Grid.Column="2"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Nine" 
+			Text="9" />
+		<Button
+			Grid.Row="3"
+			Grid.Column="3"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Multiply" 
+			Text="*" />
+
+		<Button
+			Grid.Row="4"
+			Grid.Column="0"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Four" 
+			Text="4" />
+		<Button
+			Grid.Row="4"
+			Grid.Column="1"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Five" 
+			Text="5" />
+		<Button
+			Grid.Row="4"
+			Grid.Column="2"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Six" 
+			Text="6" />
+		<Button
+			Grid.Row="4"
+			Grid.Column="3"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Minus" 
+			Text="-" />
+
+		<Button
+			BackgroundColor="Aqua"
+			Grid.Row="5"
+			Grid.Column="0"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="One" 
+			Text="1" />
+		<Button
+			Grid.Row="5"
+			Grid.Column="1"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Two" 
+			Text="2" />
+		<Button
+			Grid.Row="5"
+			Grid.Column="2"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Three" 
+			Text="3" />
+		<Button
+			Grid.Row="5"
+			Grid.Column="3"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Plus" 
+			Text="+" />
+
+		<Button
+			Grid.Row="6"
+			Grid.Column="0"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Zero" 
+			Text="0" />
+		<Button
+			Grid.Row="6"
+			Grid.Column="1"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Point" 
+			Text="." />
+		<Button
+			Grid.Row="6"
+			Grid.Column="2"
+			Font="Large"
+			Command="{Binding KeyPressCommand}"
+			CommandParameter="Equal" 
+			Text="=" />-->
+	</Grid>
+
+</ContentPage>

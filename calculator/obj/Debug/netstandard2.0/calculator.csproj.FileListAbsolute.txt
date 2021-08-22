@@ -1,0 +1,15 @@
+/Users/anibalajt/git/xamarin/calculator/calculator/bin/Debug/netstandard2.0/calculator.deps.json
+/Users/anibalajt/git/xamarin/calculator/calculator/bin/Debug/netstandard2.0/calculator.dll
+/Users/anibalajt/git/xamarin/calculator/calculator/bin/Debug/netstandard2.0/ref/calculator.dll
+/Users/anibalajt/git/xamarin/calculator/calculator/bin/Debug/netstandard2.0/calculator.pdb
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/calculator.csproj.AssemblyReference.cache
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/calculator.AssemblyInfoInputs.cache
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/calculator.AssemblyInfo.cs
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/calculator.csproj.CoreCompileInputs.cache
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/calculator.dll
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/ref/calculator.dll
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/calculator.pdb
+/Users/anibalajt/git/xamarin/calculator/calculator/obj/Debug/netstandard2.0/calculator.GeneratedMSBuildEditorConfig.editorconfig
